@@ -22,4 +22,4 @@ jobs:
           nix_path: nixpkgs=channel:nixos-unstable
 
       - name: Build with Trunk
-        run: nix develop --command trunk build
+        run: nix develop --command just build
